@@ -1,5 +1,4 @@
-#prodops-ai application
+# prodops-ai Application
 
-prodops-ai-backend folder for the backend
-
-prodops-ai-frontend folder for the frontend
+- **prodops-ai-backend**: Folder for the backend.
+- **prodops-ai-frontend**: Folder for the frontend.
