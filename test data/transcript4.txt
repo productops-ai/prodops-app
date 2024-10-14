@@ -1,0 +1,25 @@
+**Interviewer**: Thank you for your time today. I’d like to start by asking about the main problems you’re encountering with our platform. What issues have you been facing?
+
+**Customer**: The most significant issue we’ve been dealing with is the lack of real-time updates. Our team often works on tight deadlines, and having to wait for data to sync between systems slows us down considerably. For example, when we
+
+’re making decisions based on the latest data, we can’t afford to wait for the system to update—it needs to happen in real time. Another problem is the learning curve associated with the platform. New team members find it difficult to get up to speed, which delays their productivity. It’s not a very intuitive system, and the training materials available don’t cover everything we need.
+
+**Interviewer**: Real-time updates are definitely important, especially when you’re working under tight deadlines. How long does it typically take for data to sync?
+
+**Customer**: It can take anywhere from a few minutes to an hour, depending on the volume of data. This might not seem like a lot, but when you’re waiting for that information to make a critical decision, it feels like an eternity. The inconsistency also makes it hard to predict when the data will be ready, which adds to the frustration.
+
+**Interviewer**: That sounds like a challenge. What kind of improvements would you like to see in an ideal version of the platform?
+
+**Customer**: In an ideal version, data would sync in real-time, with no delays. This would allow us to make decisions based on the most current information available. We’d also like to see a more user-friendly interface and a more comprehensive onboarding process for new users. An interactive tutorial or guided setup would help new team members get familiar with the platform faster, reducing the time it takes for them to become productive.
+
+**Interviewer**: Those are excellent suggestions. What impact do you think these changes would have on your team?
+
+**Customer**: Real-time updates would make a huge difference in our ability to meet deadlines and deliver results to our clients. We’d be able to work more efficiently and with greater confidence, knowing that we’re always working with the latest data. A more user-friendly interface and better onboarding would reduce the time it takes to train new team members, which would help us to be more agile and responsive to changes.
+
+**Interviewer**: It sounds like these improvements could really help streamline your operations. What’s the ultimate outcome you’re hoping to achieve?
+
+**Customer**: We want to be able to meet our deadlines consistently without the platform slowing us down. We’re also looking to improve the onboarding experience for new team members so that they can start contributing to projects sooner. Ultimately, these changes would help us to deliver better results to our clients and improve our overall efficiency.
+
+**Interviewer**: Thank you for providing such detailed feedback. It’s incredibly valuable as we look to make improvements to our platform.
+
+**Customer**: I’m glad I could help. We’re really looking forward to seeing some of these changes implemented.

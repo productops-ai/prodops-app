@@ -1,0 +1,33 @@
+**Interviewer**: Thanks for meeting with me today. I’d like to start by asking about any difficulties you’ve been experiencing with our software. What’s been the biggest challenge?
+
+**Customer**: The biggest challenge we’ve faced is with the notifications system. We rely heavily on notifications to keep track of project updates and deadlines, but the notifications we receive are either delayed or don’t show up at all. This has caused us to miss critical deadlines and has created confusion among the team. It’s become a significant problem, especially as we’re managing more projects simultaneously.
+
+**Interviewer**: I can see how that would be a major issue, especially with multiple projects on the go. How often do these notification issues occur?
+
+**Customer**: It happens pretty regularly. I’d say at least once or twice a week we encounter a situation where a notification doesn’t come through in time, or we don’t get notified at all. This inconsistency has forced us to implement manual checks to ensure we don’t miss anything, which defeats the purpose of having an automated notification system in the first place.
+
+**Interviewer**: That’s definitely not the experience we want you to have. Have you noticed any patterns in
+
+ when the notifications fail, like specific types of updates or times of day?
+
+**Customer**: It’s hard to pinpoint a specific pattern. Sometimes it’s project updates, other times it’s deadline reminders. We’ve also noticed that the issue seems to occur more frequently when there are a lot of notifications coming in at once, like when a project is nearing a critical phase. It’s as if the system can’t handle the volume of notifications and starts to drop some.
+
+**Interviewer**: It sounds like the system might be struggling with high volumes. In an ideal scenario, how would the notification system work for you?
+
+**Customer**: Ideally, the notifications would be instant and reliable, regardless of the volume. We should be able to trust that we’ll receive all critical updates in real-time, without any delays or missed messages. It would also be helpful to have more customization options for notifications, so we can prioritize the most important updates and reduce the noise from less critical ones.
+
+**Interviewer**: Customization and reliability are key. Besides the notification issues, are there any other aspects of the software that you find challenging?
+
+**Customer**: Another challenge we’ve faced is with user permissions. We have a diverse team with different roles, and we need to be able to control who has access to certain features and data. However, the current permissions settings are too rigid. We’ve had situations where team members either don’t have the access they need to do their jobs, or they have too much access and can accidentally change or delete important information. It’s a delicate balance, and the current system doesn’t give us enough flexibility.
+
+**Interviewer**: That sounds like a significant concern, especially with a diverse team. How would improved permissions settings impact your team’s work?
+
+**Customer**: Improved permissions settings would allow us to better manage access and ensure that everyone has the right level of access for their role. This would reduce the risk of errors and increase accountability within the team. It would also streamline our workflows, as team members wouldn’t have to wait for access or risk making changes that they shouldn’t be able to. Overall, it would create a more secure and efficient working environment.
+
+**Interviewer**: It sounds like these improvements could make a big difference for your team. What kind of outcomes are you hoping to achieve with these changes?
+
+**Customer**: We’re hoping to achieve a more reliable and efficient workflow. By improving the notification system and user permissions, we can reduce the risk of missed deadlines and errors, which would allow us to focus more on delivering high-quality results to our clients. It would also help to improve team morale by reducing the frustration caused by these ongoing issues.
+
+**Interviewer**: Thank you for sharing your insights with us. Your feedback is crucial as we work to enhance the software.
+
+**Customer**: I appreciate the opportunity to share our experience. We’re looking forward to seeing these improvements.

@@ -1,0 +1,23 @@
+**Interviewer**: I appreciate you taking the time to talk today. I’d like to start by asking about some of the challenges you’ve been facing with our product. Can you tell me a bit about that?
+
+**Customer**: Sure. The most significant challenge we’ve encountered is the lack of customization options. Our team has very specific needs, and the current product doesn’t allow us to tailor it to our workflow. For example, we often need to create custom reports that pull data in a certain way, but the product doesn’t give us the flexibility to do that. We end up having to export the data and manipulate it manually, which is time-consuming and prone to errors.
+
+**Interviewer**: That sounds like a real inconvenience. How much time would you say you spend on these manual processes?
+
+**Customer**: It’s a substantial amount of time—probably several hours a week. This not only delays our work but also increases the risk of mistakes creeping into our reports. Another issue we’ve faced is with customer support. Whenever we run into a problem that we can’t solve ourselves, it takes a long time to get a response from support. Sometimes we’re waiting for days, which slows down our entire project.
+
+**Interviewer**: I’m sorry to hear that. Prompt support is something we’re continually working to improve. In an ideal world, what would the product look like for you?
+
+**Customer**: In an ideal world, the product would be highly customizable. We should be able to set it up exactly how we need it, without relying on manual workarounds. It would be great if we could create custom reports directly within the system, with the ability to choose exactly what data is included and how it’s presented. Additionally, faster customer support is crucial. Ideally, we’d have access to real-time support, like a live chat, so that we can get help as soon as an issue arises.
+
+**Interviewer**: Real-time support would definitely be a game-changer. What kind of difference do you think these changes would make for your team?
+
+**Customer**: If the product were more customizable and we had faster support, it would save us a lot of time and reduce the frustration that my team feels. We’d be able to focus more on our core tasks rather than dealing with technical issues or manual processes. This would also help us to be more accurate in our work, as there would be fewer chances for errors to creep in. Overall, it would make our workflow much smoother and more efficient.
+
+**Interviewer**: It sounds like these changes could have a big impact. What would you consider to be a successful outcome from these improvements?
+
+**Customer**: A successful outcome would be a product that feels like it was designed for us—something that fits our workflow perfectly and adapts to our needs. We’d like to see a significant reduction in the time spent on manual tasks and troubleshooting, which would allow us to be more productive and deliver better results to our clients. Fast, reliable support would also mean that we can resolve issues quickly, keeping our projects on track.
+
+**Interviewer**: Thank you for sharing this with us. Your feedback is incredibly valuable as we look to improve the product.
+
+**Customer**: I’m happy to help. We really like the product overall, and we’re looking forward to seeing these improvements.

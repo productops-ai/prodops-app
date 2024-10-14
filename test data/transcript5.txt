@@ -1,0 +1,35 @@
+**Interviewer**: Thank you for taking the time to meet with us today. To begin, could you tell me about some of the issues you've been experiencing with our product?
+
+**Customer**: Sure. One of the main problems we’ve encountered is with the search functionality. We deal with a large volume of documents daily, and finding specific information can be incredibly difficult. The search results are often irrelevant, or they don’t display all the necessary documents, which means we have to manually sift through everything. This is really slowing down our work, especially when we’re under pressure to find specific data quickly.
+
+**Interviewer**: That does sound frustrating. Can you give me an example of a recent situation where this issue caused a significant delay?
+
+**Customer**: Absolutely. Just last week, we had to pull up all contracts related to a specific client from the past three years. When we searched for the client’s name, the search returned only a handful of documents, but we knew there were many more. We had to manually go through our files to find the missing contracts, which took hours and delayed our project timeline. This kind of situation happens more often than we’d like.
+
+**Interviewer**: That must have been very time-consuming. What kind of improvements would you like to see in the search functionality?
+
+**Customer**: Ideally, the search should be more accurate and comprehensive. It should be able to pull up all relevant documents, even if the search terms are slightly off. Advanced search options would be helpful too, like being able to filter by date range, document type, or specific keywords within the documents. This would save us a lot of time and ensure that we don’t miss any important information.
+
+**Interviewer**: Advanced filtering options could definitely make the search more effective. Besides the search functionality, are there any other areas where you’re encountering issues?
+
+**Customer**: Yes, another issue we’ve had is with collaboration features. We often have multiple team members working on the same document, but the system doesn’t handle simultaneous edits well. We’ve run into situations where changes made by one team member were overwritten by another because the system didn’t update in real-time. This has led to confusion and, in some cases, loss of important information.
+
+**Interviewer**: That sounds like a serious problem, especially when collaborating on critical documents. How often does this issue occur?
+
+**Customer**: It’s been happening more frequently as our team has grown and we’ve been working on more collaborative projects. I’d say it happens at least once a week, which is far too often, given the impact it can have on our work. We’ve had to implement manual processes to track changes, which isn’t ideal and slows us down.
+
+**Interviewer**: Real-time collaboration is essential, especially for a growing team. If these issues were resolved, how would it impact your workflow?
+
+**Customer**: If the search functionality were improved and the collaboration features worked as they should, it would significantly streamline our workflow. We’d spend less time searching for documents and more time focusing on the actual work. The ability to collaborate in real-time without worrying about overwriting each other’s changes would reduce errors and increase our productivity. Overall, it would help us meet our deadlines more consistently and improve the quality of our work.
+
+**Interviewer**: It sounds like these improvements could make a big difference for your team. What kind of outcome are you hoping to achieve with these changes?
+
+**Customer**: We’re hoping to create a more efficient and seamless work environment. By reducing the time spent on manual processes and avoiding errors, we’d be able to focus more on delivering high-quality results to our clients. This would not only improve our team’s morale but also strengthen our relationships with clients by consistently meeting or exceeding their expectations.
+
+**Interviewer**: That’s a great goal. We’ll definitely take your feedback into account as we look to enhance the product. Is there anything else you’d like to add?
+
+**Customer**: Just that we really appreciate your willingness to listen to our concerns. We like the product overall, and we’re hopeful that these improvements can be made. It would make a big difference in our day-to-day operations.
+
+**Interviewer**: Thank you for sharing your thoughts with us. Your feedback is invaluable, and we’re committed to making the necessary improvements.
+
+**Customer**: I’m glad to hear that. We’re looking forward to seeing the changes.

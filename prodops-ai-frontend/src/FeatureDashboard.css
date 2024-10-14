@@ -1,0 +1,175 @@
+/* Dashboard Container */
+.feature-dashboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+  gap: 20px; /* Space between cards */
+  padding: 20px;
+  align-items: start; /* Align items at the start to maintain uniformity */
+  margin: 0 auto; /* Center the grid on the page */
+  max-width: 1200px; /* Limit the maximum width of the grid */
+  justify-content: center; /* Center the grid on the page */
+  background-color: #1b1b1d; /* Dark background for dashboard */
+}
+body {
+  background-color: #220033; /* Dark purple color */
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png"); /* Texture pattern */
+  background-size: cover; /* Adjust this depending on how you want the pattern to fit */
+  background-repeat: repeat; /* Ensure the pattern repeats */
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Feature Card */
+.feature-card {
+  background-color: #252526; /* Dark gray for the cards */
+  color: #fff;
+  width: 250px; /* Set a fixed width */
+  height: 250px; /* Set the height equal to the width to make it square */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  display: flex; /* Flexbox to center content */
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  cursor: pointer; /* Make it clear the cards are clickable */
+  position: relative;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  background-color: #6f42c1; /* Neon violet hover */
+}
+
+/* Feature Icons */
+.feature-icon {
+  font-size: 1.8em; /* Reduced size of the icons */
+  margin-bottom: 10px;
+  color: #6f42c1; /* Neon violet icons */
+}
+
+/* Text */
+.feature-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #d1d1d1; /* Light gray */
+}
+
+.feature-card p {
+  font-size: 1em;
+  margin: 10px 0 0 0;
+  color: #d1d1d1; /* Light gray */
+}
+
+/* Hover Effect to Show "In Progress" */
+.feature-card::after {
+  content: "In Progress";
+  font-size: 0.9em;
+  color: #fff;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.feature-card:hover::after {
+  opacity: 1;
+}
+
+/* Icon Definitions */
+.icon-prd::before {
+  content: '📄'; /* Document icon */
+  font-size: 1.8em; /* Adjusted to match the new icon size */
+  color: #6f42c1; /* Neon violet */
+}
+
+.icon-prototype::before {
+  content: '🖥️'; /* Computer icon */
+  font-size: 1.8em; /* Adjusted to match the new icon size */
+  color: #00a8ff; /* Neon blue */
+}
+
+.icon-flowchart::before {
+  content: '🔀'; /* Flowchart icon */
+  font-size: 1.8em; /* Adjusted to match the new icon size */
+  color: #9c6b30; /* Neon orange */
+}
+
+.icon-sequence::before {
+  content: '🔗'; /* Chain/Sequence icon */
+  font-size: 1.8em; /* Adjusted to match the new icon size */
+  color: #8a2be2; /* Neon purple */
+}
+
+.icon-page::before {
+  content: '📄'; /* Page icon */
+  font-size: 1.8em; /* Adjusted to match the new icon size */
+  color: #6f42c1; /* Neon violet */
+}
+
+.icon-testcase::before {
+  content: '📝'; /* Testcase icon */
+  font-size: 1.8em; /* Adjusted to match the new icon size */
+  color: #00a8ff; /* Neon blue */
+}
+
+.icon-datafields::before {
+  content: '📊'; /* Data fields icon */
+  font-size: 1.8em; /* Adjusted to match the new icon size */
+  color: #9c6b30; /* Neon orange */
+}
+
+.icon-inspection::before {
+  content: '🔍'; /* Inspection icon */
+  font-size: 1.8em; /* Adjusted to match the new icon size */
+  color: #8a2be2; /* Neon purple */
+}
+
+.icon-value::before {
+  content: '💰'; /* Money/Value icon */
+  font-size: 1.8em; /* Adjusted to match the new icon size */
+  color: #6f42c1; /* Neon violet */
+}
+
+.icon-sql::before {
+  content: '💻'; /* Laptop icon */
+  font-size: 1.8em; /* Adjusted to match the new icon size */
+  color: #00a8ff; /* Neon blue */
+}
+
+.icon-prototype-function::before {
+  content: '🔧'; /* Wrench icon */
+  font-size: 1.8em; /* Adjusted to match the new icon size */
+  color: #9c6b30; /* Neon orange */
+}
+
+.icon-weeklyreport::before {
+  content: '🗓️'; /* Calendar icon */
+  font-size: 1.8em; /* Adjusted to match the new icon size */
+  color: #8a2be2; /* Neon purple */
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.styled-button {
+  background-color: #6f42c1; /* Neon violet */
+  color: white;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.styled-button:hover {
+  background-color: #9c6b30; /* Neon orange on hover */
+}
+body {
+  background: linear-gradient(135deg, #1b1b1d, #2f2f2f);
+}
+.feature-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  background-color: #6f42c1; /* Neon violet on hover */
+}

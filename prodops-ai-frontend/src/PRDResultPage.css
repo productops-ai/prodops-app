@@ -1,0 +1,6 @@
+.prd-content {
+    position: relative;
+    z-index: 10000;  /* Make sure it's on top of other elements */
+    background-color: white;
+  }
+  

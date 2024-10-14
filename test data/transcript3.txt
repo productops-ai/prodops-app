@@ -1,0 +1,23 @@
+**Interviewer**: Thanks for joining us today. I’d like to start by understanding the main challenges you’re currently facing with our service. Can you tell me about those?
+
+**Customer**: Certainly. The biggest challenge we’ve encountered is with data integration. We have a lot of existing data that we need to import into your system, but the process has been incredibly complex and time-consuming. We’ve run into several issues where data doesn’t import correctly, or the system takes too long to process large datasets. This has caused significant delays in our projects, and we’ve had to spend a lot of time troubleshooting.
+
+**Interviewer**: That sounds frustrating. How much time would you estimate you’ve spent trying to resolve these issues?
+
+**Customer**: It’s been quite a lot—probably around 10-15 hours a week. We’ve even had to bring in additional resources just to handle the data integration, which wasn’t something we anticipated needing to do. Another issue we’ve faced is with the reporting features. The reports that we’re able to generate are too basic and don’t provide the level of detail we need. We require more customizable and detailed reports to meet the needs of our clients.
+
+**Interviewer**: Customization seems to be a recurring theme. What kind of features would you like to see in an ideal solution?
+
+**Customer**: For data integration, we need a more streamlined and user-friendly process. It would be helpful to have more support during the setup phase, perhaps with guided steps or an onboarding specialist who can assist with data import. As for reporting, we need more robust tools that allow us to customize the reports fully—choosing specific data points, filtering information, and creating templates that we can reuse. Export options are also important, as we often need to present this data to clients in different formats.
+
+**Interviewer**: Those are great suggestions. How would these improvements impact your work?
+
+**Customer**: If we had better data integration and reporting tools, it would save us a tremendous amount of time and reduce the headaches associated with manual data processing. This would allow us to focus more on analyzing the data and making informed decisions, rather than just getting the data into the system and generating basic reports. It would also help us to deliver more value to our clients, as we’d be able to provide them with more detailed and insightful reports.
+
+**Interviewer**: It sounds like these changes could significantly improve your operations. What’s the ultimate outcome you’re hoping to achieve?
+
+**Customer**: Our goal is to streamline our operations so that we can work more efficiently and effectively. By reducing the time spent on data integration and improving our reporting capabilities, we’d be able to provide better insights to our clients and make quicker, more informed decisions. Ultimately, this would help us to improve client satisfaction and potentially grow our business.
+
+**Interviewer**: Thank you for sharing your experience with us. Your feedback is essential as we work to enhance our service.
+
+**Customer**: I’m glad I could provide input. We’re really hoping to see these improvements soon.

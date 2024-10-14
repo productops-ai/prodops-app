@@ -1,0 +1,31 @@
+**Interviewer**: Thank you for taking the time to speak with us today. To start, could you describe some of the difficulties you’ve been having with our service?
+
+**Customer**: The main difficulty we’ve been experiencing is with the integration of third-party tools. Our team relies on several external platforms to manage different aspects of our work, but integrating those tools with your system has been problematic. Some integrations don’t work as expected, while others are prone to breaking whenever there’s an update on either side. This inconsistency has created a lot of extra work for our IT team, who have to constantly troubleshoot and find workarounds.
+
+**Interviewer**: That sounds like a major inconvenience, especially if it’s affecting your ability to use essential tools. How often do these integration issues occur?
+
+**Customer**: It’s been a consistent problem for the past few months. Whenever there’s a new update, we brace ourselves for something to break. I’d say we encounter a significant integration issue at least once every two weeks, which disrupts our workflow and forces us to spend time fixing problems instead of focusing on our core tasks.
+
+**Interviewer**: That’s a lot of time spent on troubleshooting. What specific third-party tools are you having trouble integrating with our system?
+
+**Customer**: We’ve had issues with our project management tool, which we use to track tasks and deadlines. The integration often fails to sync updates between the two systems, leading to discrepancies in task statuses and deadlines. We’ve also had problems with our communication platform, where messages sent through the platform don’t always appear in your system’s activity logs, making it hard to keep track of conversations and decisions.
+
+**Interviewer**: It sounds like these are critical tools for your operations. In an ideal world, how would these integrations work?
+
+**Customer**: Ideally, the integrations would be seamless and reliable. Any updates or changes in the third-party tools should sync automatically and accurately with your system, without us having to intervene manually. It would also be helpful to have more control over how the integrations are set up, so we can tailor them to our specific needs. This would allow us to fully leverage the power of both your system and the external tools we rely on.
+
+**Interviewer**: Seamless integration is definitely important. Are there any other areas where you’ve encountered challenges with our service?
+
+**Customer**: Another challenge we’ve faced is with the data export feature. We often need to export large datasets for analysis, but the export process is slow and sometimes crashes before it completes. When we’re working on tight deadlines, this is incredibly frustrating, as it delays our ability to deliver results to our clients. We’ve had to resort to breaking down the data into smaller chunks, which is not only time-consuming but also increases the risk of errors.
+
+**Interviewer**: Slow and unreliable data exports can definitely be a bottleneck. How would improved export functionality impact your work?
+
+**Customer**: If the export process were faster and more reliable, it would save us a significant amount of time and reduce the frustration associated with this task. We’d be able to complete our analysis more quickly and deliver results to our clients without delays. It would also reduce the risk of errors, as we wouldn’t have to manually piece together data from multiple smaller exports. Overall, it would streamline our workflow and improve the quality of our work.
+
+**Interviewer**: It sounds like these improvements could have a substantial impact on your operations. What outcomes are you hoping to achieve with these changes?
+
+**Customer**: We’re hoping to achieve a more efficient and reliable workflow. By resolving the integration issues and improving the data export functionality, we can focus more on our core tasks and less on troubleshooting technical problems. This would allow us to deliver better results to our clients and improve our overall efficiency.
+
+**Interviewer**: Thank you for providing such detailed feedback. It’s invaluable as we work to enhance our service.
+
+**Customer**: I’m glad I could help. We’re looking forward to seeing these improvements implemented.
