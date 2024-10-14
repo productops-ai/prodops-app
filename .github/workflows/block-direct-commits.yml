@@ -1,0 +1,16 @@
+name: Block Direct Commits to Main and Dev
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+
+jobs:
+  block_direct_commits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Block Direct Commit
+        run: |
+          echo "Direct commits to main and dev are not allowed. Please open a Pull Request."
+          exit 1
