@@ -1,0 +1,16 @@
+name: Restrict PR to Main
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check_pr_source:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PR Source
+        if: github.event.pull_request.head.ref != 'dev'
+        run: |
+          echo "Pull requests to main can only be raised from the dev branch."
+          exit 1
