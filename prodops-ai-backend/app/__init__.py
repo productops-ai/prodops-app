@@ -4,7 +4,7 @@ def create_app():
     app = Flask(__name__)
 
     # Register routes
-    from .routes import main as main_blueprint
+    from .routes_vllm import main as main_blueprint
     app.register_blueprint(main_blueprint)
 
     return app
