@@ -23,10 +23,18 @@ jobs:
           npm install
           npm run build  # Adjust this based on your framework (React, Vue, etc.)
 
+      # Configure AWS CLI to ensure it's properly set up
+      - name: Configure AWS CLI
+        run: |
+          aws configure set aws_access_key_id ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws configure set aws_secret_access_key ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws configure set default.region us-east-1
+          aws configure list
+
       # Deploy to Dev S3 bucket when PR is merged into dev
       - name: Deploy to S3 (Dev)
         if: github.ref == 'refs/heads/dev'
-        working-directory: ./prodops-ai-frontend  # Set the working directory to the frontend folder
+        working-directory: ./prodops-ai-frontend
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
