@@ -18,6 +18,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install dependencies and build
+        working-directory: ./prodops-ai-frontend  # Set the working directory to the frontend folder
         run: |
           npm install
           npm run build  # Adjust this based on your framework (React, Vue, etc.)
@@ -25,6 +26,7 @@ jobs:
       # Deploy to Dev S3 bucket when PR is merged into dev
       - name: Deploy to S3 (Dev)
         if: github.ref == 'refs/heads/dev'
+        working-directory: ./prodops-ai-frontend  # Set the working directory to the frontend folder
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -35,6 +37,7 @@ jobs:
       # Deploy to Prod S3 bucket when PR is merged into main from dev
       - name: Deploy to S3 (Prod)
         if: github.ref == 'refs/heads/main' && github.event.pull_request.head.ref == 'dev'
+        working-directory: ./prodops-ai-frontend  # Set the working directory to the frontend folder
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

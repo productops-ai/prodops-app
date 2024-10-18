@@ -49,7 +49,7 @@ function MainPage() {
   return (
     <div className="App">
       <header className="app-header">
-        <h1>ProductOps AI – Transcript Analysis</h1>
+        <h1>ProdOps AI – Transcript Analysis</h1>
       </header>
       <div className="container">
         <main className="main-content">
