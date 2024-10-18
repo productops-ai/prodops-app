@@ -3,3 +3,4 @@ __pycache__/
 uploaded_transcripts/
 prodops-ai-backend/.env
 prodops-ai-frontend/node_modules
+prodops-ai-frontend/build
