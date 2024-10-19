@@ -21,14 +21,17 @@ jobs:
         with:
           python-version: '3.9'
 
+      # Change to the backend directory, set up virtual environment, and install dependencies
       - name: Install dependencies
         run: |
+          cd prodops-ai-backend 
           python -m venv venv
           source venv/bin/activate
           pip install -r requirements.txt
 
       - name: Zip the code
         run: |
+          cd prodops-ai-backend
           deactivate
           zip -r function.zip .
 
