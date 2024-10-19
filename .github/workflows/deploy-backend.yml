@@ -1,0 +1,58 @@
+name: Deploy Flask Backend to Lambda
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - dev       # Deploy to Dev Lambda when PR is merged into dev
+      - main      # Deploy to Prod Lambda when PR is merged into main
+
+jobs:
+  deploy:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+
+      - name: Zip the code
+        run: |
+          deactivate
+          zip -r function.zip .
+
+      # Configure AWS CLI
+      - name: Configure AWS CLI
+        run: |
+          aws configure set aws_access_key_id ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws configure set aws_secret_access_key ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws configure set default.region us-east-1
+
+      # Deploy to Dev Lambda
+      - name: Deploy to Lambda (Dev)
+        if: github.ref == 'refs/heads/dev'
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          aws lambda update-function-code --function-name prodops-dev-backend --zip-file fileb://function.zip
+
+      # Deploy to Prod Lambda
+      - name: Deploy to Lambda (Prod)
+        if: github.ref == 'refs/heads/main' && github.event.pull_request.head.ref == 'dev'
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          aws lambda update-function-code --function-name prodops-prod-backend --zip-file fileb://function.zip

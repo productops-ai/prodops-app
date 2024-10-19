@@ -1,10 +1,9 @@
 from flask import Flask, request, jsonify, Blueprint
 import openai
 import os
-from run_vllm import *
+from .run_vllm import *
 from flask_cors import CORS
 
-app = Flask(__name__)
 main = Blueprint('main', __name__)
 CORS(main, supports_credentials=True)
 # Set your OpenAI API key
@@ -66,3 +65,6 @@ def generate_prd_from_transcript(transcript):
 
     return prd_content
 
+# Lambda handler
+def lambda_handler(event, context):
+    return app(event, context)
