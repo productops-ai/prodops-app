@@ -32,7 +32,6 @@ jobs:
       - name: Zip the code
         run: |
           cd prodops-ai-backend
-          deactivate
           zip -r function.zip .
 
       # Configure AWS CLI
