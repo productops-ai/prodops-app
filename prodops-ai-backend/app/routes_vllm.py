@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify, Blueprint
-import openai
 import os
 from .run_vllm import *
 from flask_cors import CORS
